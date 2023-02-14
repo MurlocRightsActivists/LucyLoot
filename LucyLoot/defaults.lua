@@ -1,0 +1,5 @@
+LucyLoot.defaults = {
+    global = {
+        items = {}
+    }
+}
