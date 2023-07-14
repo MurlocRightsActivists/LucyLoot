@@ -4,4 +4,5 @@
     <!-- <Script file="ObsidianSanctum.lua"/> -->
     <!-- <Script file="EyeOfEternity.lua"/> -->
     <Script file="Ulduar.lua"/>
+    <Script file="TOGC.lua"/>
 </Ui>
