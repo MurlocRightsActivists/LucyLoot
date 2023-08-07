@@ -2,4 +2,5 @@
 ..\FrameXML\UI.xsd">
     <Script file="Ulduar.lua"/>
     <Script file="TOGC.lua"/>
+    <Script file="Onyxia.lua"/>
 </Ui>

@@ -3,11 +3,11 @@ local items = {
     --  (10)    The Beasts of Northrend
     ------------------------------------------------------------
     [47608] = { --[[Acidmaw Boots]] primary = 'Physical DPS' },
-    [47610] = { --[[Armbands Of The Northern Stalker]] primary = 'Enhance Shaman', secondary = 'Physical DPS' },
-    [47615] = { --[[Belt Of The Frozen Reach]] primary = 'Holy Pally,' },
+    [47610] = { --[[Armbands Of The Northern Stalker]] primary = 'Enhancement Shaman', secondary = 'Physical DPS' },
+    [47615] = { --[[Belt Of The Frozen Reach]] primary = 'Holy Paladin' },
     [47578] = { --[[Carnivourous Band]] primary = 'Unholy DK', secondary = 'Physical DPS' },
     [47607] = { --[[Coller Of The Ceaseless Torment]] primary = 'Arms Warrior', secondary = 'Physical DPS' },
-    [47611] = { --[[Dreadscale Armguards]] primary = 'Prot Pally', secondary = 'Tanks' },
+    [47611] = { --[[Dreadscale Armguards]] primary = 'Prot Paladin', secondary = 'Tanks' },
     [47609] = { --[[Gauntlets Of Rising Anger]] primary = 'Physical DPS' },
     [47614] = { --[[Girdle Of The Impaler]] primary = 'Physical DPS' },
     [47617] = { --[[Icehowl Cinch]] primary = 'Caster DPS' },
@@ -19,10 +19,10 @@ local items = {
     ------------------------------------------------------------
     [47919] = { --[[Acidmaw Boots]] primary = 'Physical DPS' },
     [47916] = { --[[Armbands Of The Northern Stalker]] primary = 'Enhance Shaman', secondary = 'Physical DPS' },
-    [47924] = { --[[Belt Of The Frozen Reach]] primary = 'Holy Pally,' },
+    [47924] = { --[[Belt Of The Frozen Reach]] primary = 'Holy Paladin' },
     [47920] = { --[[Carnivourous Band]] primary = 'Unholy DK', secondary = 'Physical DPS' },
     [47915] = { --[[Coller Of The Ceaseless Torment]] primary = 'Arms Warrior', secondary = 'Physical DPS' },
-    [47918] = { --[[Dreadscale Armguards]] primary = 'Prot Pally', secondary = 'Tanks' },
+    [47918] = { --[[Dreadscale Armguards]] primary = 'Prot Paladin', secondary = 'Tanks' },
     [47917] = { --[[Gauntlets Of Rising Anger]] primary = 'Physical DPS' },
     [47925] = { --[[Girdle Of The Impaler]] primary = 'Physical DPS' },
     [47921] = { --[[Icehowl Cinch]] primary = 'Caster DPS' },
@@ -39,7 +39,7 @@ local items = {
     [47676] = { --[[Dirk Of The NIght Watch]] primary = 'Dagger Rogues', secondary = 'Physical DPS' },
     [47679] = { --[[Endurance Of The Infernal]] primary = 'Tanks' },
     [47663] = { --[[Felspark Bindings]] primary = 'Caster DPS' },
-    [47618] = { --[[Firestorm Ring]] primary = 'Ele Shaman, Enhance Shaman', secondary = 'Caster DPS' },
+    [47618] = { --[[Firestorm Ring]] primary = 'Elemental/Enhancement Shaman', secondary = 'Caster DPS' },
     [47621] = { --[[Girdle Of The Farseer]] primary = 'Healers', secondary = 'Caster DPS' },
     [47711] = { --[[Girdle Of The Nether Champion]] primary = 'Tanks' },
     [47620] = { --[[Leggings Of The Demonic Messenger]] primary = 'Caster DPS/Healer' },
@@ -93,17 +93,17 @@ local items = {
     --  (10)    Twin Val'Kyr
     ------------------------------------------------------------
     [47739] = { --[[Armor Of Shifting Shadows]] primary = 'Physical DPS' },
-    [49231] = { --[[Boots Of The Grieving Soul]] primary = 'Caster DPS/Healers' },
-    [47742] = { --[[Chalice Of Benedictus]] primary = 'Resto Druid, Arcane Mage, Affli Lock' },
+    [49231] = { --[[Boots Of The Grieving Soul]] primary = 'Caster DPS, Healers' },
+    [47742] = { --[[Chalice Of Benedictus]] primary = 'Resto Druid, Arcane Mage, Affliction Warlock' },
     [47747] = { --[[Darkbane Pendant]] primary = 'Caster DPS' },
     [47743] = { --[[Enlightenment]] primary = 'Resto Druid, Shadow Priest', secondary = 'Caster DPS, Healers' },
     [47739] = { --[[Gloves Of Looming Shadow]] primary = 'Caster DPS' },
-    [47744] = { --[[Gloves Of The Azure Project]] primary = 'Caster DPS/Healers' },
+    [47744] = { --[[Gloves Of The Azure Project]] primary = 'Caster DPS, Healers' },
     [47746] = { --[[Helm Of The Snowy Grotto]] primary = 'Caster DPS, Healers' },
-    [47736] = { --[[Icefall Blade]] primary = 'Dagger Rogue', secondary = 'Physical DPS' },
+    [47736] = { --[[Icefall Blade]] primary = 'Dagger Rogues', secondary = 'Physical DPS' },
     [47700] = { --[[Loop Of The Twin Valkyr]] primary = 'Blood DK, Druid Tank, Prot Pally' },
     [47737] = { --[[Reckoning]] primary = 'Physical DPS' },
-    [47738] = { --[[Sabatons Of The Lingering Vortex]] primary = 'Prot Pally', secondary = 'Tanks' },
+    [47738] = { --[[Sabatons Of The Lingering Vortex]] primary = 'Prot Paladin', secondary = 'Tanks' },
     [47740] = { --[[The Diplomat]] primary = 'Ass Rogue', secondary = 'Physical DPS' },
     ------------------------------------------------------------
     --  (10H)
@@ -125,7 +125,8 @@ local items = {
     --  (10)    Anubarak
     ------------------------------------------------------------
     [47809] = { --[[Argent Resolve]] primary = 'Healers', secondary = 'Caster DPS' },
-    [47741] = { --[[Baelguns Heavy Crossbow]] primary = 'Physical DPs' },
+    [47741] = { --[[Baelguns Heavy Crossbow]] primary = 'Physical DPS' },
+    [47835] = { --[[Bulwark of the Royal Guard]] primary = 'Prot Paladin, Prot Warrior'},
     [47811] = { --[[Chestguard Of The Warden]] primary = 'Tanks' },
     [47837] = { --[[Cinch Of The Undying]] primary = 'Caster DPS, Healers' },
     [47815] = { --[[Cold Convergence]] primary = 'Caster DPS, Healers' },
@@ -139,13 +140,14 @@ local items = {
     [47816] = { --[[The Grinder]] primary = 'Physical DPS' },
     [47808] = { --[[The Lions Maw]] primary = 'Combat Rogue', secondary = 'Physical DPS' },
     [47838] = { --[[Vestments Of The Sleepless]] primary = 'Caster DPS' },
-    [47812] = { --[[Vigiland Ward]] primary = 'Resto Shaman, Ele Shaman,HolyPaladin' },
+    [47812] = { --[[Vigiland Ward]] primary = 'Resto Shaman, Elemental Shaman, Holy Paladin' },
     [47814] = { --[[Westfall Saber]] primary = 'Physical DPS' },
     ------------------------------------------------------------
     --  (10H)
     ------------------------------------------------------------
     [47962] = { --[[Argent Resolve]] primary = 'Healers', secondary = 'Caster DPS' },
     [47975] = { --[[Baelguns Heavy Crossbow]] primary = 'Physical DPs' },
+    [47978] = { --[[Bulwark of the Royal Guard]] primary = 'Prot Paladin, Prot Warrior'},
     [47964] = { --[[Chestguard Of The Warden]] primary = 'Tanks' },
     [47977] = { --[[Cinch Of The Undying]] primary = 'Caster DPS, Healers' },
     [47968] = { --[[Cold Convergence]] primary = 'Caster DPS, Healers' },
@@ -159,7 +161,7 @@ local items = {
     [47973] = { --[[The Grinder]] primary = 'Physical DPS' },
     [47966] = { --[[The Lions Maw]] primary = 'Combat Rogue', secondary = 'Physical DPS' },
     [47974] = { --[[Vestments Of The Sleepless]] primary = 'Caster DPS' },
-    [47963] = { --[[Vigiland Ward]] primary = 'Resto Shaman, Ele Shaman,HolyPaladin' },
+    [47963] = { --[[Vigiland Ward]] primary = 'Resto Shaman, Elemental Shaman, Holy Paladin' },
     [47971] = { --[[Westfall Saber]] primary = 'Physical DPS' },
     ------------------------------------------------------------
     --  (10H)   Tribute Chest 24
@@ -195,9 +197,9 @@ local items = {
     [46961] = { --[[Boneshatter Armplates]] primary = 'Warrior, Ret Pally', secondary = 'Physical DPS' },
     [46985] = { --[[Boots Of The Courageous]] primary = 'Holy Pally' },
     [46988] = { --[[Boots Of The Unrelenting Storm]] primary = 'Boomkin, Resto Druid', secondary = 'Caster DPS' },
-    [46960] = { --[[Breastplate Of Cruel Intent]] primary = 'MM Hunter, Enhance Shaman', secondary = 'Physical DPS' },
+    [46960] = { --[[Breastplate Of Cruel Intent]] primary = 'MM/Survival Hunter, Enhancement Shaman, Ret Paladin', secondary = 'Physical DPS' },
     [46962] = { --[[Chestplate Of The Towering Monostrosity]] primary = 'Blood DK, Prot Pally, Prot Warrior' },
-    [46972] = { --[[Cord Of The Tenebrous Mists]] primary = 'Arcane Mage, Shadow Priest, Affli Lock, Demo Lock', secondary =
+    [46972] = { --[[Cord Of The Tenebrous Mists]] primary = 'Arcane Mage, Shadow Priest, Affliction/Demo Warlock', secondary =
     'Caster DPS' },
     [46963] = { --[[Crystal Plated Vanguard]] primary = 'Prot Pally, Prot Warrior' },
     [46970] = { --[[Drape Of The Untamed Predator]] primary = 'Warrior', secondary = 'Rogue', tertiary = 'Hunter', quaternary =
@@ -218,7 +220,7 @@ local items = {
     [46967] = { --[[Boneshatter Armplates]] primary = 'Warrior, Ret Pally', secondary = 'Physical DPS' },
     [46986] = { --[[Boots Of The Courageous]] primary = 'Holy Pally' },
     [46989] = { --[[Boots Of The Unrelenting Storm]] primary = 'Boomkin, Resto Druid', secondary = 'Caster DPS' },
-    [46965] = { --[[Breastplate Of Cruel Intent]] primary = 'MM Hunter, Enhance Shaman', secondary = 'Physical DPS' },
+    [46965] = { --[[Breastplate Of Cruel Intent]] primary = 'MM/Survival Hunter, Enhancement Shaman, Ret Paladin', secondary = 'Physical DPS' },
     [46968] = { --[[Chestplate Of The Towering Monostrosity]] primary = 'Blood DK, Prot Pally, Prot Warrior' },
     [46973] = { --[[Cord Of The Tenebrous Mists]] primary = 'Arcane Mage, Shadow Priest, Affli Lock, Demo Lock', secondary =
     'Caster DPS' },
@@ -237,13 +239,13 @@ local items = {
     [47056] = { --[[Bracers Of Cloudy Omen]] primary = 'Resto Shaman', secondary = 'Healers' },
     [47055] = { --[[Bracers Of The Autumn Willow]] primary = 'Boomkin, Resto Druid, ' },
     [47043] = { --[[Charge Of The Demon Lord]] primary =
-    'Kitty, MM Hunter, Surv Hunter, Ass Rogue, Combat Rogue, Enhance Shaman, Fury Warrior, Ret Pally' },
+    'Kitty, MM/Surv Hunter, Ass/Combat Rogue, Enhancement Shaman, Fury Warrior, Ret Pally' },
     [47000] = { --[[Cuirass Of Calamitous Fate]] primary = 'Druid Tank', secondary = 'Physical DPS' },
     [46997] = { --[[Dawnbreaker Greaves]] primary = 'Blood DK, Prot Pally, Prot Warrior' },
-    [47051] = { --[[Leggings Of The Soothing Touch]] primary = 'Demo Lock', secondary = 'Caster DPS' },
+    [47051] = { --[[Leggings Of The Soothing Touch]] primary = 'Demolition Warlock', secondary = 'Casters' },
     [47052] = { --[[Legguards Of Feverish Dedication]] primary = 'Blood DK, ' },
     [47057] = { --[[Legplates Of Failing Light]] primary = 'Holy Pally,' },
-    [46996] = { --[[Lionhead Slasher]] primary = 'Combat Rogue', secondary = 'Unholy DK', tertiary = 'Physical DPS' },
+    [46996] = { --[[Lionhead Slasher]] primary = 'Combat Rogue', secondary = 'Unholy DK', tertiary = 'Physical' },
     [47042] = { --[[Pride Of The Eredar]] primary = 'Tanks' },
     [47223] = { --[[Ring Of The Darkmender]] primary = 'Resto Druid, Holy Pally, Disc Priest, Resto Shaman, ' },
     [47041] = { --[[Solace Of The Defeated]] primary = 'Resto Druid, Disc Priest, Resto Shaman', secondary = 'Holy Pally' },
@@ -273,10 +275,9 @@ local items = {
     ------------------------------------------------------------
     [47079] = { --[[Bastion of Purity]] primary = 'Holy Pally,  Ele Shaman, Resto Shaman, ' },
     [47092] = { --[[Boots Of The Mourning Widow]] primary =
-    'Boomkin, Resto Druid, Arcane Mage, Fire Mage, Disc Priest, Shadow Priest, Affli Lock, Demo Lock, ' },
-    [47090] = { --[[Boots Of Tremorning Earth]] primary = 'Enhance Shaman, Ele Shaman, Resto Shaman', secondary =
-    'Holy Pally' },
-    [47073] = { --[[Bracers Of The Untold Massacre]] primary = 'MM Hunter, Surv Hunter, Arms Warrior, Fury Warrior, ' },
+    'Boomkin/Resto Druid, Arcane/Fire Mage, Disc/Shadow Priest, Aff/Demo Warlock' },
+    [47090] = { --[[Boots Of Tremorning Earth]] primary = 'Shaman', secondary ='Holy Paladin' },
+    [47073] = { --[[Bracers Of The Untold Massacre]] primary = 'MM/Surv Hunter, Arms/Fury Warrior' },
     [47082] = { --[[Chestplate Of The Frostborn Hero]] primary = 'DK DPS' },
     [47089] = { --[[Cloak Of Displacement]] primary = 'Caster DPS' },
     [47081] = { --[[Cord Of Biting Cold]] primary = 'Boomkin, Fire Mage, Disc Priest, Ele Shaman', secondary =
@@ -285,11 +286,10 @@ local items = {
     [47069] = { --[[Justicebringer]] primary = 'Arms Warrior, Fury Warrior' },
     [47083] = { --[[Legguards Of Concealed Hatred]] primary = 'Ele Shaman, Resto Shaman', secondary = 'Casters/Healers' },
     [47070] = { --[[Ring Of Callous Aggression]] primary =
-    'Kitty, Druid Tank, MM Hunter, Surv Hunter, Ret Pally, Ass Rogue, Combat Rogue, Enhance Shaman, Arms Warrior, Fury Warrior, ' },
+    'Kitty/Bear Druid, MM/Surv Hunter, Ret Paladin, Ass/Combat Rogue, Enhancement Shaman, Arms/Fury Warrior' },
     [47080] = { --[[Satrinas Impeding Scarab]] primary = 'Blood DK, Druid Tank, Prot Pally, Prot Warrior' },
-    [47071] = { --[[Treads Of The Icewalker]] primary = 'Kitty, Ass Rogue, Combat Rogue, Arms Warrior', secondary =
-    'Druid Tank' },
-    [47093] = { --[[Vambraces Of The Broken Bond]] primary = 'Holy Pally,' },
+    [47071] = { --[[Treads Of The Icewalker]] primary = 'Kitty/Bear Druid, Ass/Combat Rogue, Arms Warrior' },
+    [47093] = { --[[Vambraces Of The Broken Bond]] primary = 'Holy Paladin,' },
     [47094] = { --[[Vestments Of The Shattered Fellowship]] primary = 'Boomkin, Resto Druid', secondary =
     'Caster/Healers' },
     ------------------------------------------------------------
@@ -297,8 +297,8 @@ local items = {
     ------------------------------------------------------------
     [47085] = { --[[Bastion of Purity]] primary = 'Holy Pally,  Ele Shaman, Resto Shaman, ' },
     [47097] = { --[[Boots Of The Mourning Widow]] primary =
-    'Boomkin, Resto Druid, Arcane Mage, Fire Mage, Disc Priest, Shadow Priest, Affli Lock, Demo Lock, ' },
-    [47099] = { --[[Boots Of Tremorning Earth]] primary = 'Enhance Shaman, Ele Shaman, Resto Shaman', secondary =
+    'Boomkin/Resto Druid, Arcane/Fire Mage, Disc/Shadow Priest, Aff/Demo Warlock' },
+    [47099] = { --[[Boots Of Tremorning Earth]] primary = 'Shaman', secondary =
     'Holy Pally' },
     [47074] = { --[[Bracers Of The Untold Massacre]] primary = 'MM Hunter, Surv Hunter, Arms Warrior, Fury Warrior, ' },
     [47086] = { --[[Chestplate Of The Frostborn Hero]] primary = 'DK DPS' },
@@ -308,47 +308,45 @@ local items = {
     [47076] = { --[[Girlde OF Bloodied Scars]] primary = 'Blood DK, Prot Pally, Prot Warrior' },
     [47078] = { --[[Justicebringer]] primary = 'Arms Warrior, Fury Warrior' },
     [47087] = { --[[Legguards Of Concealed Hatred]] primary = 'Ele Shaman, Resto Shaman', secondary = 'Casters/Healers' },
-    [47075] = { --[[Ring Of Callous Aggression]] primary =
-    'Kitty, Druid Tank, MM Hunter, Surv Hunter, Ret Pally, Ass Rogue, Combat Rogue, Enhance Shaman, Arms Warrior, Fury Warrior, ' },
+    [47075] = { --[[Ring Of Callous Aggression]] primary = 'Kitty/Bear Druid, MM/Surv Hunter, Ret Paladin, Ass/Combat Rogue, Enhancement Shaman, Arms/Fury Warrior' },
     [47088] = { --[[Satrinas Impeding Scarab]] primary = 'Blood DK, Druid Tank, Prot Pally, Prot Warrior' },
-    [47077] = { --[[Treads Of The Icewalker]] primary = 'Kitty, Ass Rogue, Combat Rogue, Arms Warrior', secondary =
-    'Druid Tank' },
-    [47098] = { --[[Vambraces Of The Broken Bond]] primary = 'Holy Pally,' },
+    [47077] = { --[[Treads Of The Icewalker]] primary = 'Kitty/Bear Druid, Ass/Combat Rogue, Arms Warrior' },
+    [47098] = { --[[Vambraces Of The Broken Bond]] primary = 'Holy Paladin,' },
     [47096] = { --[[Vestments Of The Shattered Fellowship]] primary = 'Boomkin, Resto Druid', secondary =
     'Caster/Healers' },
     ------------------------------------------------------------
     --  (25)    Twin Val'Kyr
     ------------------------------------------------------------
     [47107] = { --[[Belt Of The Merciless Killer]] primary =
-    'Kitty, Druid Tank, Ass Rogue, Combat Rogues, Enhance Shaman, ' },
-    [47141] = { --[[Bindings Of Dark Essence]] primary = 'Fire Mage, Disc Priest', secondary = 'Casters/Healers' },
+    'Kitty/Bear Druid, Ass/Combat Rogue, Enh Shaman' },
+    [47141] = { --[[Bindings Of Dark Essence]] primary = 'Fire Mage, Disc/Shadow Priest', secondary = 'Casters/Healers' },
     [47108] = { --[[Bracers Of The Shieldmaiden]] primary = 'Blood DK, Prot Pally, Prot Warrior' },
     [47142] = { --[[Breastplate Of The Frozen Lake]] primary = 'Holy Pally' },
     [47138] = { --[[Chalce Of Searing Light]] primary = 'Disc Priest, Demo Lock', secondary = 'Casters/Healers' },
     [47140] = { --[[Cord Of Pale Thorns]] primary = 'Resto Druid', secondary = 'Casters/Healers' },
     [47115] = { --[[Deaths Verdict]] primary =
-    'Unholy DK, Frost DK, Kitty, MM Hunter, Surv Hunter, Ret Pally, Ass Rogue, Combat Rogue, Arms Warrior, Fury Warrior, ' },
+    'Unholy/Frost DK, Kitty, MM/Surv Hunter, Ret Pally, Ass/Combat Rogue, Arms/Fury Warrior' },
     [47121] = { --[[Legguards OF Ascension]] primary = 'Unholy DK, Ret Pally', secondary = 'Physical DPS' },
     [47114] = { --[[Lupines Longstaff]] primary = 'Druid Tank, Kitty', secondary = 'Hunters', tertiary = 'Physical DPS' },
-    [47106] = { --[[Sabatons Of Ruthless Judgement]] primary = 'MM Hunter, Surv Hunter', secondary = 'Physical DPS' },
-    [47126] = { --[[Skywaever Robes]] primary = 'Fire Mage, Affli Lock', secondary = 'Casters' },
+    [47106] = { --[[Sabatons Of Ruthless Judgement]] primary = 'MM/Surv Hunter', secondary = 'Physical DPS' },
+    [47126] = { --[[Skywaever Robes]] primary = 'Fire Mage, Affliction Warlock', secondary = 'Casters' },
     [47116] = { --[[The Arbiters Muse]] primary = 'Blood DK, Druid Tank, Prot Pally, Prot Warrior' },
     [47105] = { --[[The Executioners Malice]] primary = 'Unholy DK, Frost DK', secondary = 'Physical DPS' },
     [47104] = { --[[Twin Spike]] primary = 'Ass Rogue', secondary = 'Physcial DPS' },
     [47139] = { --[[Wail Of The Valkyr]] primary =
-    'Boomkin, Resto Druid, Arcane Mage, Fire Mage, Holy Pally, Disc Priest, Shadow Priest, Ele Shaman, Resto Shaman, Affli Lock, ' },
+    'Boomkin/Resto Druid, Arcane/Fire Mage, Holy Paladin, Disc/Shadow Priest, Ele/Resto Shaman, Aff Warlock' },
     ------------------------------------------------------------
     --  (25H)
     ------------------------------------------------------------
     [47112] = { --[[Belt Of The Merciless Killer]] primary =
-    'Kitty, Druid Tank, Ass Rogue, Combat Rogues, Enhance Shaman, ' },
-    [47143] = { --[[Bindings Of Dark Essence]] primary = 'Fire Mage, Disc Priest', secondary = 'Casters/Healers' },
+    'Kitty/Bear Druid, Ass/Combat Rogue, Enh Shaman' },
+    [47143] = { --[[Bindings Of Dark Essence]] primary = 'Fire Mage, Disc/Shadow Priest', secondary = 'Casters/Healers' },
     [47111] = { --[[Bracers Of The Shieldmaiden]] primary = 'Blood DK, Prot Pally, Prot Warrior' },
     [47147] = { --[[Breastplate Of The Frozen Lake]] primary = 'Holy Pally' },
     [47146] = { --[[Chalce Of Searing Light]] primary = 'Disc Priest, Demo Lock', secondary = 'Casters/Healers' },
     [47145] = { --[[Cord Of Pale Thorns]] primary = 'Resto Druid', secondary = 'Casters/Healers' },
     [47131] = { --[[Deaths Verdict]] primary =
-    'Unholy DK, Frost DK, Kitty, MM Hunter, Surv Hunter, Ret Pally, Ass Rogue, Combat Rogue, Arms Warrior, Fury Warrior, ' },
+    'Unholy/Frost DK, Kitty, MM/Surv Hunter, Ret Pally, Ass/Combat Rogue, Arms/Fury Warrior' },
     [47132] = { --[[Legguards OF Ascension]] primary = 'Unholy DK, Ret Pally', secondary = 'Physical DPS' },
     [47130] = { --[[Lupines Longstaff]] primary = 'Druid Tank, Kitty', secondary = 'Hunters', tertiary = 'Physical DPS' },
     [47109] = { --[[Sabatons Of Ruthless Judgement]] primary = 'MM Hunter, Surv Hunter', secondary = 'Physical DPS' },
@@ -357,31 +355,31 @@ local items = {
     [47110] = { --[[The Executioners Malice]] primary = 'Unholy DK, Frost DK', secondary = 'Physical DPS' },
     [47113] = { --[[Twin Spike]] primary = 'Ass Rogue', secondary = 'Physcial DPS' },
     [47144] = { --[[Wail Of The Valkyr]] primary =
-    'Boomkin, Resto Druid, Arcane Mage, Fire Mage, Holy Pally, Disc Priest, Shadow Priest, Ele Shaman, Resto Shaman, Affli Lock, ' },
+    'Boomkin/Resto Druid, Arcane/Fire Mage, Holy Paladin, Disc/Shadow Priest, Ele/Resto Shaman, Aff Warlock' },
     ------------------------------------------------------------
     --  (25)    Anubarak
     ------------------------------------------------------------
     [47233] = { --[[Archon Glaive]] primary = 'Kitty', secondary = 'MM Hunter, Surv Hunter' },
     [47203] = { --[[Armbands Of The Ashen Saint]] primary = 'Arcane Mage, Shadow Priest, Affli Lock, Demo Lock,' },
     [47054] = { --[[Band Of Deplorable Violence]] primary =
-    'Boomkin, Arcane Mage, Fire Mage, Disc Priest, Shadow Priest, Affli Lock, Demo Lock, ' },
+    'Boomkin, Arcane/Fire Mage, Disc/Shadow Priest, Aff/Demo Lock' },
     [47152] = { --[[Belt Of Deathly Dominion]] primary = 'MM Hunter, Surv Hunter, Arms Warrior', secondary =
     'Physical DPS' },
     [47195] = { --[[Belt Of The Forgotten Martyr]] primary = 'Holy Pally' },
     [47151] = { --[[Bracers Of Dark Determination]] primary = 'Druid Tank, Ret Pally, Ass Rogue, Combat Rogues,' },
     [47204] = { --[[Chestguard Of Flowing Elements]] primary = 'Ele Shaman, Resto Shaman' },
     [47194] = { --[[Footpads Of The ICy Floe]] primary = 'Casters' },
-    [47234] = { --[[Gloves Of Bitter Reprisal]] primary = 'Frost DK, Arms Warrior, Fury Warrior, ' },
+    [47234] = { --[[Gloves Of Bitter Reprisal]] primary = 'Frost DK, Arms Warrior, Fury Warrior' },
     [47235] = { --[[Gloves Of The Lifeless Touch]] primary = 'Caster/Healers' },
     [47150] = { --[[Greaves Of The 7th Legion]] primary = 'Frost DK, Ret Pally, Fury Warrior, ' },
     [47187] = { --[[Leggings Of The Deepening Void]] primary = 'Caster', secondary = 'Healer' },
-    [47184] = { --[[Legguards Of The Lurking Threat]] primary = 'Surv Hunter, Arms Warrior, ' },
-    [47186] = { --[[Legwraps OF The Awakening]] primary = 'Boomkin, Ele Shaman, Resto Shaman, ' },
+    [47184] = { --[[Legguards Of The Lurking Threat]] primary = 'Surv Hunter, Arms Warrior' },
+    [47186] = { --[[Legwraps OF The Awakening]] primary = 'Boomkin, Ele Shaman, Resto Shaman' },
     [47225] = { --[[Maidens Favor]] primary = 'Healers' },
     [47193] = { --[[Miserys End]] primary =
-    'Boomkin, Resto Druid, Holy Pally, Disc Priest, Shadow Priest, Enhance Shaman, Resto Shaman, ' },
+    'Boomkin/Resto Druid, Holy Paladin, Disc/Shadow Priest, Enhancement/Resto Shaman' },
     [47182] = { --[[Reign Of The Unliving]] primary =
-    'Boomkin, Arcane Mage, Fire Mage, Shadow Priest, Ele Shaman, Enhance Shaman, ' },
+    'Boomkin, Arcane/Fire Mage, Shadow Priest, Ele/Enh Shaman' },
     [47149] = { --[[Signet Of The Traitor King]] primary = 'Blood DK, Prot Pally, Prot Warrior' },
     [47148] = { --[[Stormpike Cleaver]] primary = 'Prot Paladins', secondary = 'Combat Rogue, Enhance Shaman', tertiary =
     'Physical DPS' },
@@ -392,7 +390,7 @@ local items = {
     [47239] = { --[[Archon Glaive]] primary = 'Kitty', secondary = 'MM Hunter, Surv Hunter' },
     [47208] = { --[[Armbands Of The Ashen Saint]] primary = 'Arcane Mage, Shadow Priest, Affli Lock, Demo Lock,' },
     [47237] = { --[[Band Of Deplorable Violence]] primary =
-    'Boomkin, Arcane Mage, Fire Mage, Disc Priest, Shadow Priest, Affli Lock, Demo Lock, ' },
+    'Boomkin, Arcane/Fire Mage, Disc/Shadow Priest, Aff/Demo Lock' },
     [47153] = { --[[Belt Of Deathly Dominion]] primary = 'MM Hunter, Surv Hunter, Arms Warrior', secondary =
     'Physical DPS' },
     [47207] = { --[[Belt Of The Forgotten Martyr]] primary = 'Holy Pally' },
@@ -407,9 +405,9 @@ local items = {
     [47190] = { --[[Legwraps OF The Awakening]] primary = 'Boomkin, Ele Shaman, Resto Shaman, ' },
     [47238] = { --[[Maidens Favor]] primary = 'Healers' },
     [47206] = { --[[Miserys End]] primary =
-    'Boomkin, Resto Druid, Holy Pally, Disc Priest, Shadow Priest, Enhance Shaman, Resto Shaman, ' },
+    'Boomkin/Resto Druid, Holy Paladin, Disc/Shadow Priest, Enhancement/Resto Shaman' },
     [47188] = { --[[Reign Of The Unliving]] primary =
-    'Boomkin, Arcane Mage, Fire Mage, Shadow Priest, Ele Shaman, Enhance Shaman, ' },
+    'Boomkin, Arcane/Fire Mage, Shadow Priest, Ele/Enh Shaman' },
     [47157] = { --[[Signet Of The Traitor King]] primary = 'Blood DK, Prot Pally, Prot Warrior' },
     [47156] = { --[[Stormpike Cleaver]] primary = 'Prot Paladins', secondary = 'Combat Rogue, Enhance Shaman', tertiary =
     'Physical DPS' },
@@ -417,12 +415,12 @@ local items = {
     ------------------------------------------------------------
     --  (25H)   Tribute Chest   44
     ------------------------------------------------------------
-    [47521] = { --[[BK-1000]] primary = 'Surv Hunter', secondary = 'MM Hunter', tertiary = 'Ass Rogue, Combat Rogue' },
-    [47517] = { --[[Blade Of The Unbroken Covenant]] primary = 'Fire Mage, Holy Pally', secondary = 'Casters/Healers' },
-    [47519] = { --[[Catastrophe]] primary = 'Ret Pally', secondary = 'Physical DPS' },
+    [47521] = { --[[BK-1000]] primary = 'Surv Hunter', secondary = 'MM Hunter', tertiary = 'Ass/Combat Rogue' },
+    [47517] = { --[[Blade Of The Unbroken Covenant]] primary = 'Fire Mage, Holy Paladin', secondary = 'Casters/Healers' },
+    [47519] = { --[[Catastrophe]] primary = 'Ret Paladin', secondary = 'Physical DPS' },
     [47524] = { --[[Clemency]] primary = 'Caster/Healers' },
     [47515] = { --[[Decimation]] primary = 'Blood DK', secondary = 'Physical DPS' },
-    [47526] = { --[[Remorseless]] primary = 'Unholy DK, Frost DK', secondary = 'Prot Paladins' },
+    [47526] = { --[[Remorseless]] primary = 'Unholy DK, Frost DK', secondary = 'Prot Paladin' },
     [47506] = { --[[Silverwing Defender]] primary = 'Prot Warrior', secondary = 'Tanks' },
     ------------------------------------------------------------
     --  (25H)   Tribute Chest   50
@@ -430,10 +428,10 @@ local items = {
     [47553] = { --[[Bolvars Devotion]] primary = 'Resto Druid, Demo Lock', secondary = 'Casters/Healers' },
     [49096] = { --[[Crusaders White Warhorse]] primary = 'Lucy Prio' },
     [47552] = { --[[Jainas Radiance]] primary =
-    'Boomkin, Arcane Mage, Fire Mage, Holy Pally, Disc Priest, Shadow Priest, Ele Shaman, Enhance Shaman, Resto Shaman, Affli Lock' },
+    'Boomkin, Arcane/Fire Mage, Holy Paladin, Disc/Shadow Priest, Shaman, Aff Warlock' },
     [47549] = { --[[Magnis Resolution]] primary = 'Blood DK, Druid Tank, Prot Pally, Prot Warrior' },
     [47547] = { --[[Varians Furor]] primary = 'Unholy DK, Frost DK, Ret Pally' },
-
+    [47545] = { --[[Vereesa's Dexterity]] primary = 'Kitty, MM/Surv Hunter, Ass/Combat Rogue, Arms/Fury Warrior'}
 }
 
 for k, v in pairs(items) do

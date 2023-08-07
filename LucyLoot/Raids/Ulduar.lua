@@ -607,8 +607,8 @@ local items = {
     ------------------------------------------------------------
     --  (25)    Special
     ------------------------------------------------------------
-    [45038] = { --[[Fragment of Val'anyr]] primary = 'Truth/Crispy',secondary = 'Ancilis/Selerim',tertiary = 'Sarah'},
-    [46017] = { --[[Val'anyr, Hammer of Ancient Kings]] primary = 'Truth/Crispy',secondary = 'Ancilis/Selerim',tertiary = 'Sarah'},
+    [45038] = { --[[Fragment of Val'anyr]] primary = 'Tiger/Sarah'},
+    [46017] = { --[[Val'anyr, Hammer of Ancient Kings]] primary = 'Tiger/Sarah'},
 }
 
 for k, v in pairs(items) do
