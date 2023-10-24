@@ -170,7 +170,7 @@ local items = {
 [51801] = { --[[ Pugius, Fist of Defiance ]] primary = 'PhysicalDPS' },
 [51800] = { --[[ Stormfury, Black Blade of the Betrayer ]] primary = 'PhysicalDPS' },
 [51797] = { --[[ Tainted Twig of Nordrassil ]] primary = 'MM Hunter, Surival Hunters' },
-[51803] = { --[[ Tel'thas, Dagger of the Blood King ]] primary = 'Enhancement Shaman', secondary = 'CasterDPS, Healers' },
+[51803] = { --[[ Tel'thas, Dagger of the Blood King ]] primary = 'Enh Shaman', secondary = 'CasterDPS, Healers' },
 [51795] = { --[[ Troggbane, Axe of the Frostborne King ]] primary = 'Prot Warrior,' },
 [51798] = { --[[ Valius, Gavel of the Lightbringer ]] primary = 'Healers' },
 [51796] = { --[[ Warmace of Menethil ]] primary = 'Fury Warriors' },

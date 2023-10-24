@@ -2,7 +2,7 @@ local items = {
 --------------------------------------------------
 --           Marrowgar
 --------------------------------------------------
-[50604] = { --[[ Band of the Bone Colossus ]] primary = 'Kitty, Ass Rogue, Enhance Shaman' },
+[50604] = { --[[ Band of the Bone Colossus ]] primary = 'Kitty, Ass Rogue, Enh Shaman' },
 [50609] = { --[[ Bone Sentinel's Amulet ]] primary = 'Resto Druid' },
 [50611] = { --[[ Bracers of Dark Reckoning ]] primary = 'BloodDK, Prot Warrior' },
 [50709] = { --[[ Bryntroll, the Bone Arbiter ]] primary = 'PhysicalDPS' },
@@ -16,7 +16,7 @@ local items = {
 [50614] = { --[[ Loop of the Endless Labyrinth ]] primary = 'CasterDPS' },
 [50610] = { --[[ Marrowgar's Frigid Eye ]] primary = 'Healers', secondary = 'CasterDPS' },
 [50617] = { --[[ Rusted Bonespike Pauldrons ]] primary = 'Healers', secondary = 'CasterDPS' },
-[50605] = { --[[ Snowserpent Mail Helm ]] primary = 'Enhancement Shaman, Ret Paladin, Hunters' },
+[50605] = { --[[ Snowserpent Mail Helm ]] primary = 'Enh Shaman, Ret Paladin, Hunters' },
 --------------------------------------------------
 --           Deathwhisper
 --------------------------------------------------
@@ -39,7 +39,7 @@ local items = {
 --           Gunship
 --------------------------------------------------
 [50366] = { --[[ Althor's Abacus ]] primary = 'Resto Druid, Disc Priest, Resto Shaman' },
-[50658] = { --[[ Amulet of the Silent Eulogy ]] primary = 'Ele Shaman, Demo Lock, Enhance Shaman' },
+[50658] = { --[[ Amulet of the Silent Eulogy ]] primary = 'Ele Shaman, Demo Lock, Enh Shaman' },
 [50660] = { --[[ Boneguard Commander's Pauldrons ]] primary = 'Prot Paladin' },
 [50665] = { --[[ Boots of Unnatural Growth ]] primary = 'CasterDPS' },
 [50661] = { --[[ Corp'rethar Ceremonial Crown ]] primary = 'CasterDPS, Healers' },
@@ -50,7 +50,7 @@ local items = {
 [50664] = { --[[ Ring of Rapid Ascent ]] primary = 'Boomkin, Fire Mage, Holy Paladin\n              Shadow Priest, Ele Shaman, Resto Shaman\n              Aff Lock' },
 [50655] = { --[[ Scourge Hunter's Vambraces ]] primary = 'Survival Hunter, MM Hunter' },
 [50654] = { --[[ Scourgeborne Waraxe ]] primary = 'Combat Rogue' },
-[50653] = { --[[ Shadowvault Slayer's Cloak ]] primary = 'Ret Paladin, Ass Rogue, Enhancement Shaman' },
+[50653] = { --[[ Shadowvault Slayer's Cloak ]] primary = 'Ret Paladin, Ass Rogue, Enh Shaman' },
 [50657] = { --[[ Skeleton Lord's Circle ]] primary = 'UnholyDK', secondary = 'PhysicalDPS' },
 [50667] = { --[[ Waistband of Righteous Fury ]] primary = 'Healers, CasterDPS' },
 --------------------------------------------------
@@ -65,7 +65,7 @@ local items = {
 --           Festergut
 --------------------------------------------------
 [50691] = { --[[ Belt of Broken Bones ]] primary = 'BloodDK, Prot Paladin, Prot Warrior' },
-[50692] = { --[[ Black Bruise ]] primary = 'PhysicalDPS', secondary = 'Enhancement Shaman(Physical)' },
+[50692] = { --[[ Black Bruise ]] primary = 'PhysicalDPS', secondary = 'Enh Shaman(Physical)' },
 [50689] = { --[[ Carapace of Forgotten Kings ]] primary = 'PhysicalDPS' },
 [50695] = { --[[ Distant Land ]] primary = 'PhysicalDPS', secondary = 'Kitty' },
 [50701] = { --[[ Faceplate of the Forgotten ]] primary = 'CasterDPS, Healers' },
@@ -85,7 +85,7 @@ local items = {
 --------------------------------------------------
 [50675] = { --[[ Aldriana's Gloves of Secrecy ]] primary = 'Kitty, Combat Rogue, Fury Warrior' },
 [50682] = { --[[ Bile-Encrusted Medallion ]] primary = 'BloodDK, Bear, Prot Paladin\n              Prot Warrior' },
-[50681] = { --[[ Blightborne Warplate ]] primary = 'Ele Shaman, Resto Shaman, Enhance Shaman' },
+[50681] = { --[[ Blightborne Warplate ]] primary = 'Ele Shaman, Resto Shaman, Enh Shaman' },
 [50687] = { --[[ Bloodsunder's Bracers ]] primary = 'Arcane Mage, Fire Mage, Shadow Priest\n              Aff Lock' },
 [50684] = { --[[ Corpse-Impaling Spike ]] primary = 'Fire Mage, Disc Priest' },
 [50686] = { --[[ Death Surgeon's Sleeves ]] primary = 'Boomkin, Arcane Mage, Fire Mage\n              Shadow Priest, Ele Shaman, Aff Lock\n              Demo Lock' },
@@ -96,7 +96,7 @@ local items = {
 [50676] = { --[[ Rib Spreader ]] primary = 'Holy Paladin' },
 [50680] = { --[[ Rot-Resistant Breastplate ]] primary = 'PhysicalDPS' },
 [50678] = { --[[ Seal of Many Mouths ]] primary = 'Tanks' },
-[50685] = { --[[ Trauma ]] primary = 'Healers', secondary = 'Resto Druid, Holy Paladin, REsto Shaman' },
+[50685] = { --[[ Trauma ]] primary = 'Healers', secondary = 'Resto Druid, Holy Paladin, Resto Shaman' },
 [50677] = { --[[ Winding Sheet ]] primary = 'FrostDK, UnholyDK' },
 --------------------------------------------------
 --           Putricide
@@ -113,7 +113,7 @@ local items = {
 [50603] = { --[[ Cryptmaker ]] primary = 'BloodDK', secondary = 'Fury Warrior', tertiary = 'PhysicalDPS' },
 [50713] = { --[[ Geistlord's Punishment Sack ]] primary = 'PhysicalDPS' },
 [50720] = { --[[ Incarnadine Band of Mending ]] primary = 'Disc Priest,' },
-[50710] = { --[[ Keleseth's Seducer ]] primary = 'PhysicalDPS', secondary = 'Enhancement Shaman(OH)' },
+[50710] = { --[[ Keleseth's Seducer ]] primary = 'PhysicalDPS', secondary = 'Enh Shaman(OH)' },
 [50712] = { --[[ Landsoul's Horned Greathelm ]] primary = 'UnholyDK', secondary = 'PhysicalDPS' },
 [50723] = { --[[ Mail of Crimson Coins ]] primary = 'CasterDPS, Healers' },
 [50718] = { --[[ Royal Crimson Cloak ]] primary = 'Prot Paladin, Prot Warrior, BloodDK' },
@@ -122,7 +122,7 @@ local items = {
 [50719] = { --[[ Shadow Silk Spindle ]] primary = 'Boomkin, Arcane Mage, Fire Mage\n              Disc Priest, Shadow Priest, Aff Lock' },
 [50715] = { --[[ Shoulders of Frost-Tipped Thorns ]] primary = 'CasterDPS, Healers' },
 [50716] = { --[[ Taldaram's Plated Fists ]] primary = 'Tanks' },
-[50711] = { --[[ Treads of the Wasteland ]] primary = 'Enhance Shaman,' },
+[50711] = { --[[ Treads of the Wasteland ]] primary = 'Enh Shaman,' },
 [50714] = { --[[ Valanar's Other Signet Ring ]] primary = 'CasterDPS' },
 --------------------------------------------------
 --           BloodQueen
@@ -136,7 +136,7 @@ local items = {
 --------------------------------------------------
 --           Dreamwalker
 --------------------------------------------------
-[50619] = { --[[ Anub'ar Stalker's Gloves ]] primary = 'Enhance Shaman' },
+[50619] = { --[[ Anub'ar Stalker's Gloves ]] primary = 'Enh Shaman' },
 [50632] = { --[[ Boots of the Funeral March ]] primary = 'CasterDPS, Healers' },
 [50630] = { --[[ Bracers of Eternal Dreaming ]] primary = 'Boomkin, Resto Druid' },
 [50620] = { --[[ Coldwraith Links ]] primary = 'FrostDK, UnholyDK, Fury Warrior' },
@@ -155,7 +155,7 @@ local items = {
 --           Sindragosa
 --------------------------------------------------
 [50636] = { --[[ Memory of Malygos ]] primary = 'Resto Druid, Arcane Mage, Demo Lock' },
-[50365] = { --[[ Phylactery of the Nameless Lich ]] primary = 'Boomkin, Fire Mage, Shadow Priest\n              Ele Shaman, Aff Lock, Demo Lock\n              Enhancement Shaman' },
+[50365] = { --[[ Phylactery of the Nameless Lich ]] primary = 'Boomkin, Fire Mage, Shadow Priest\n              Ele Shaman, Aff Lock, Demo Lock\n              Enh Shaman' },
 [50633] = { --[[ Sindragosa's Cruel Claw ]] primary = 'Kitty, Survival Hunter, MM Hunter\n              Ass Rogue, Combat Rogue, Fury Warriors', notes = 'Fury Warriors MUST CHOOSE this or Lanathels' },
 [50364] = { --[[ Sindragosa's Flawless Fang ]] primary = 'BloodDK, Bear, Prot Paladin\n              Prot Warrior' },
 [50635] = { --[[ Sundial of Eternal Dusk ]] primary = 'Resto Druid, Demo Lock' },
@@ -164,13 +164,14 @@ local items = {
 --------------------------------------------------
 [50731] = { --[[ Archus, Greatstaff of Antonidas ]] primary = 'CasterDPS, Healers' },
 [50732] = { --[[ Bloodsurge, Kel'Thuzad's Blade of Agony ]] primary = 'Arcane Mage, Fire Mage, Aff Lock\n              Demo Lock' },
-[50733] = { --[[ Fal'inrush, Defender of Quel'thalas ]] primary = 'Survival Hunter, MM Hunter', secondary = 'Ass Rogue, Combat Rogue, Arms Warrior\n              Fury Warrior' },
+[50733] = { --[[ Fal'inrush, Defender of Quel'thalas ]] primary = 'Survival Hunter, MM Hunter', secondary = 'Ass Rogue, Combat Rogue, Arms Warrior\n                  Fury Warrior' },
 [50730] = { --[[ Glorenzelg, High-Blade of the Silver Hand ]] primary = 'BloodDK, Ret Paladin, Fury Warrior' },
-[50737] = { --[[ Havoc's Call, Blade of Lordaeron Kings ]] primary = 'FrostDK, UnholyDK, Combat Rogue\n              Enhance Shaman' },
+[50737] = { --[[ Havoc's Call, Blade of Lordaeron Kings ]] primary = 'FrostDK, UnholyDK, Combat Rogue\n              Enh Shaman' },
 [50736] = { --[[ Heaven's Fall, Kryss of a Thousand Lies ]] primary = 'Ass Rogue' },
 [50738] = { --[[ Mithrios, Bronzebeard's Legacy ]] primary = 'Prot Warrior' },
 [50735] = { --[[ Oathbinder, Charge of the Ranger-General ]] primary = 'Bear, Kitty', secondary = 'Survival Hunter, MM Hunter, Arms Warrior' },
-[50734] = { --[[ Royal Scepter of Terenas II ]] primary = 'Boomkin, Resto Druid, Holy Paladin\n              Disc Priest, Shadow Priest, Ele Shaman\n              Resto Shaman, Enhance Shaman' },
+[50734] = { --[[ Royal Scepter of Terenas II ]] primary = 'Boomkin, Resto Druid, Holy Paladin\n              Disc Priest, Shadow Priest, Ele Shaman\n              Resto Shaman, Enh Shaman' },
+[50818] = { --[[ Invinsible's Reins ]] primary = 'TheTruth is out there ...'},
 }
 
 for k, v in pairs(items) do
