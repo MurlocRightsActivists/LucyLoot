@@ -26,6 +26,11 @@
         "OpacitySliderFrame",
         "ChatFontNormal",
         "OKAY",
-        "NOT_BOUND"
+        "NOT_BOUND",
+        "strsplit",
+        "InCombatLockdown",
+        "IsEncounterInProgress",
+        "GameTooltip",
+        "tonumber"
     ]
 }
