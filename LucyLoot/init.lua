@@ -1,10 +1,12 @@
+local LibStub = LibStub
+local tonumber = tonumber
+local strsplit = strsplit
+local IsEncounterInProgress = IsEncounterInProgress
+local GameTooltip = GameTooltip
+
 LucyLoot = LibStub("AceAddon-3.0"):NewAddon("LucyLoot", "AceConsole-3.0", "AceHook-3.0")
 local AC = LibStub("AceConfig-3.0")
 local ACD = LibStub("AceConfigDialog-3.0")
-
-local tonumber = tonumber
-local print = print
-local strsplit = strsplit
 
 local itemsDB = {}
 
@@ -20,7 +22,7 @@ function LucyLoot:OnInitialize()
     AC:RegisterOptionsTable("LucyLoot_Profiles", profiles)
     ACD:AddToBlizOptions("LucyLoot_Profiles", "Profiles", "LucyLoot")
 
-    self:RegisterChatCommand("RL", function() ReloadUI() end)
+    --self:RegisterChatCommand("RL", function() ReloadUI() end)
     self:RegisterChatCommand("LL", "SlashCommand")
 end
 
@@ -42,6 +44,8 @@ function LucyLoot:OnDisable()
 end
 
 function LucyLoot:OnTooltipSetItem(tt)
+
+    if IsEncounterInProgress() then return end
 
     local _, link = tt:GetItem()
     if link == nil then return end
@@ -87,3 +91,5 @@ function LucyLoot:SlashCommand(input, editbox)
         end
     end
 end
+
+
