@@ -174,8 +174,7 @@ local items = {
 [51795] = { --[[ Troggbane, Axe of the Frostborne King ]] primary = 'Prot Warrior,' },
 [51798] = { --[[ Valius, Gavel of the Lightbringer ]] primary = 'Healers' },
 [51796] = { --[[ Warmace of Menethil ]] primary = 'Fury Warriors' },
-[51802] = { --[[ Windrunner's Heartseeker ]] primary = 'Physical DPS' },
-[51802] = { --[[ Windrunner's Heartseeker ]] primary = 'Physical DPS' },
+[51802] = { --[[ Windrunner's Heartseeker ]] primary = 'Physical DPS' }
 }
 
 for k, v in pairs(items) do

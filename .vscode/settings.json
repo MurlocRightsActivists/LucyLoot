@@ -32,5 +32,8 @@
         "IsEncounterInProgress",
         "GameTooltip",
         "tonumber"
+    ],
+    "Lua.diagnostics.disable": [
+        "duplicate-index"
     ]
 }

@@ -6,7 +6,6 @@ LucyLoot.defaults = {
     }
 }
 
-
 LucyLoot.options = {
     type = "group",
     name = "LucyLoot Options",
