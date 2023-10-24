@@ -83,7 +83,7 @@ local items = {
 --------------------------------------------------
 --           Rotface
 --------------------------------------------------
-[50675] = { --[[ Aldriana's Gloves of Secrecy ]] primary = 'Kitty DPS, Combat Rogue, Fury Warrior\n' },
+[50675] = { --[[ Aldriana's Gloves of Secrecy ]] primary = 'Kitty DPS, Combat Rogue, Fury Warrior' },
 [50682] = { --[[ Bile-Encrusted Medallion ]] primary = 'DK Tank, Druid Tank, Pally Tank\n              Prot Warrior' },
 [50681] = { --[[ Blightborne Warplate ]] primary = 'Ele Shaman, Resto Shaman, Enhance Shaman' },
 [50687] = { --[[ Bloodsunder's Bracers ]] primary = 'Arcane Mage, Fire Mage, Shadow Priest\n              Aff Lock' },

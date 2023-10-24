@@ -40,5 +40,5 @@ luac.out
 *.hex
 
 .idea/
-.vcode
+.vcode/
 
