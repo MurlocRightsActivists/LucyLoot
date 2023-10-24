@@ -9,8 +9,6 @@ LucyLoot = LibStub("AceAddon-3.0"):NewAddon("LucyLoot", "AceConsole-3.0", "AceHo
 local AC = LibStub("AceConfig-3.0")
 local ACD = LibStub("AceConfigDialog-3.0")
 
-LucyLoot.InCombat = false
-
 local itemsDB = {}
 
 function LucyLoot:OnInitialize()
