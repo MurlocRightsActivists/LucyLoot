@@ -65,7 +65,7 @@ local items = {
 --           Festergut
 --------------------------------------------------
 [50691] = { --[[ Belt of Broken Bones ]] primary = 'BloodDK, Prot Paladin, Prot Warrior' },
-[50692] = { --[[ Black Bruise ]] primary = 'PhysicalDPS', secondary = 'Enh Shaman(Physical)' },
+[50692] = { --[[ Black Bruise ]] primary = 'PhysicalDPS' },
 [50689] = { --[[ Carapace of Forgotten Kings ]] primary = 'PhysicalDPS' },
 [50695] = { --[[ Distant Land ]] primary = 'PhysicalDPS', secondary = 'Kitty' },
 [50701] = { --[[ Faceplate of the Forgotten ]] primary = 'CasterDPS, Healers' },
@@ -84,19 +84,19 @@ local items = {
 --           Rotface
 --------------------------------------------------
 [50675] = { --[[ Aldriana's Gloves of Secrecy ]] primary = 'Kitty, Combat Rogue, Fury Warrior' },
-[50682] = { --[[ Bile-Encrusted Medallion ]] primary = 'BloodDK, Bear, Prot Paladin\n              Prot Warrior' },
-[50681] = { --[[ Blightborne Warplate ]] primary = 'Ele Shaman, Resto Shaman, Enh Shaman' },
-[50687] = { --[[ Bloodsunder's Bracers ]] primary = 'Arcane Mage, Fire Mage, Shadow Priest\n              Aff Lock' },
-[50684] = { --[[ Corpse-Impaling Spike ]] primary = 'Fire Mage, Disc Priest' },
-[50686] = { --[[ Death Surgeon's Sleeves ]] primary = 'Boomkin, Arcane Mage, Fire Mage\n              Shadow Priest, Ele Shaman, Aff Lock\n              Demo Lock' },
-[50348] = { --[[ Dislodged Foreign Object ]] primary = 'PhysicalDPS' },
+[50682] = { --[[ Bile-Encrusted Medallion ]] primary = 'Tanks' },
+[50681] = { --[[ Blightborne Warplate ]] primary = 'Tanks' },
+[50687] = { --[[ Bloodsunder's Bracers ]] primary = 'Ele Shaman, Resto Shaman, Enh Shaman' },
+[50684] = { --[[ Corpse-Impaling Spike ]] primary = 'Arcane Mage, Fire Mage, Shadow Priest\n              Aff Lock' },
+[50686] = { --[[ Death Surgeon's Sleeves ]] primary = 'Fire Mage, Disc Priest' },
+[50348] = { --[[ Dislodged Foreign Object ]] primary = 'Boomkin, Arcane Mage, Fire Mage\n              Shadow Priest, Ele Shaman, Aff Lock\n              Demo Loc' },
 [50673] = { --[[ Dual-Bladed Pauldrons ]] primary = 'CasterDPS, Healers' },
 [50679] = { --[[ Helm of the Elder Moon ]] primary = 'UnholyDK', secondary = 'PhysicalDPS' },
 [50674] = { --[[ Raging Behemoth's Shoulderplates ]] primary = 'PhysicalDPS' },
 [50676] = { --[[ Rib Spreader ]] primary = 'Holy Paladin' },
 [50680] = { --[[ Rot-Resistant Breastplate ]] primary = 'PhysicalDPS' },
-[50678] = { --[[ Seal of Many Mouths ]] primary = 'Tanks' },
-[50685] = { --[[ Trauma ]] primary = 'Healers', secondary = 'Resto Druid, Holy Paladin, Resto Shaman' },
+[50678] = { --[[ Seal of Many Mouths ]] primary = 'PhysicalDPS' },
+[50685] = { --[[ Trauma ]] primary = 'Healers' },
 [50677] = { --[[ Winding Sheet ]] primary = 'FrostDK, UnholyDK' },
 --------------------------------------------------
 --           Putricide
@@ -104,7 +104,7 @@ local items = {
 [50707] = { --[[ Astrylian's Sutured Cinch ]] primary = 'Bear, Kitty, Ret Paladin\n              Ass Rogue, Combat Rogue, Arms Warrior' },
 [50708] = { --[[ Last Word ]] primary = 'PhysicalDPS' },
 [50705] = { --[[ Professor's Bloodied Smock ]] primary = 'Resto Druid' },
-[50704] = { --[[ Rigormortis ]] primary = 'CasterDPS', secondary = 'Arcane Mage, Affli Lock, Demo Warlock' },
+[50704] = { --[[ Rigormortis ]] primary = 'CasterDPS' },
 [50706] = { --[[ Tiny Abomination in a Jar ]] primary = 'Ret Paladin, Ass Rogue' },
 --------------------------------------------------
 --           BloodCouncil
@@ -113,7 +113,7 @@ local items = {
 [50603] = { --[[ Cryptmaker ]] primary = 'BloodDK', secondary = 'Fury Warrior', tertiary = 'PhysicalDPS' },
 [50713] = { --[[ Geistlord's Punishment Sack ]] primary = 'PhysicalDPS' },
 [50720] = { --[[ Incarnadine Band of Mending ]] primary = 'Disc Priest,' },
-[50710] = { --[[ Keleseth's Seducer ]] primary = 'PhysicalDPS', secondary = 'Enh Shaman(OH)' },
+[50710] = { --[[ Keleseth's Seducer ]] primary = 'PhysicalDPS' },
 [50712] = { --[[ Landsoul's Horned Greathelm ]] primary = 'UnholyDK', secondary = 'PhysicalDPS' },
 [50723] = { --[[ Mail of Crimson Coins ]] primary = 'CasterDPS, Healers' },
 [50718] = { --[[ Royal Crimson Cloak ]] primary = 'Prot Paladin, Prot Warrior, BloodDK' },
@@ -129,7 +129,7 @@ local items = {
 --------------------------------------------------
 [50726] = { --[[ Bauble of True Blood ]] primary = 'Healers' },
 [50724] = { --[[ Blood Queen's Crimson Choker ]] primary = 'Boomkin, Arcane Mage, Fire Mage\n              Holy Paladin, Shadow Priest, Resto Shaman\n              Aff Lock' },
-[50727] = { --[[ Bloodfall ]] primary = 'PhysicalDPS', secondary = 'BloodDKs,Bear, Arms Warrior' },
+[50727] = { --[[ Bloodfall ]] primary = 'PhysicalDPS' },
 [50725] = { --[[ Dying Light ]] primary = 'CasterDPS, Healers' },
 [50729] = { --[[ Icecrown Glacial Wall ]] primary = 'Prot Paladin, Prot Warrior' },
 [50728] = { --[[ Lana'thel's Chain of Flagellation ]] primary = 'FrostDK, Arms Warrior, Fury Warriors', notes = 'MUST CHOOSE THIS OR CLAW FROM SINDRAGOSA' },
