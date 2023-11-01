@@ -1,6 +1,6 @@
 ## Interface: 30403
 ## Title: LucyLoot
-## Version: 1.4.1
+## Version: 1.4.2
 ## Author: Thetruth
 ## SavedVariables: LucyLootDB
 
