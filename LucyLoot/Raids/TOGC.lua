@@ -239,7 +239,7 @@ local items = {
     [47056] = { --[[Bracers Of Cloudy Omen]] primary = 'Resto Shaman', secondary = 'Healers' },
     [47055] = { --[[Bracers Of The Autumn Willow]] primary = 'Boomkin, Resto Druid, ' },
     [47043] = { --[[Charge Of The Demon Lord]] primary =
-    'Kitty, MM/Surv Hunter, Ass/Combat Rogue\n              Enhancement Shaman, Fury Warrior, Ret Pally' },
+    'Kitty, MM/Surv Hunter\n              Ass/Combat Rogue, Enh Shaman\n              Fury Warrior, Ret Pally' },
     [47000] = { --[[Cuirass Of Calamitous Fate]] primary = 'Druid Tank', secondary = 'Physical DPS' },
     [46997] = { --[[Dawnbreaker Greaves]] primary = 'Blood DK, Prot Pally, Prot Warrior' },
     [47051] = { --[[Leggings Of The Soothing Touch]] primary = 'Demolition Warlock', secondary = 'Casters' },
@@ -258,7 +258,7 @@ local items = {
     [47068] = { --[[Bracers Of Cloudy Omen]] primary = 'Resto Shaman', secondary = 'Healers' },
     [47066] = { --[[Bracers Of The Autumn Willow]] primary = 'Boomkin, Resto Druid, ' },
     [47060] = { --[[Charge Of The Demon Lord]] primary =
-    'Kitty, MM Hunter, Surv Hunter\n              Ass Rogue, Combat Rogue, Enhance Shaman\n              Fury Warrior, Ret Pally' },
+    'Kitty, MM/Surv Hunter\n              Ass/Combat Rogue, Enh Shaman\n              Fury Warrior, Ret Pally' },
     [47004] = { --[[Cuirass Of Calamitous Fate]] primary = 'Druid Tank', secondary = 'Physical DPS' },
     [47003] = { --[[Dawnbreaker Greaves]] primary = 'Blood DK, Prot Pally, Prot Warrior' },
     [47062] = { --[[Leggings Of The Soothing Touch]] primary = 'Demo Lock', secondary = 'Caster DPS' },
@@ -286,7 +286,7 @@ local items = {
     [47069] = { --[[Justicebringer]] primary = 'Arms Warrior, Fury Warrior' },
     [47083] = { --[[Legguards Of Concealed Hatred]] primary = 'Ele Shaman, Resto Shaman', secondary = 'Casters/Healers' },
     [47070] = { --[[Ring Of Callous Aggression]] primary =
-    'Kitty/Bear Druid, MM/Surv Hunter, Ret Paladin\n              Ass/Combat Rogue, Enhancement Shaman\n              Arms/Fury Warrior' },
+    'Kitty/Bear, MM/Surv Hunter, Ret Paladin\n              Ass/Combat Rogue, Enhancement Shaman\n              Arms/Fury Warrior' },
     [47080] = { --[[Satrinas Impeding Scarab]] primary = 'Prot Paladin' },
     [47071] = { --[[Treads Of The Icewalker]] primary = 'Kitty/Bear Druid, Ass/Combat Rogue\n              Arms Warrior' },
     [47093] = { --[[Vambraces Of The Broken Bond]] primary = 'Holy Paladin,' },
@@ -308,7 +308,7 @@ local items = {
     [47076] = { --[[Girlde OF Bloodied Scars]] primary = 'Blood DK, Prot Pally, Prot Warrior' },
     [47078] = { --[[Justicebringer]] primary = 'Arms Warrior, Fury Warrior' },
     [47087] = { --[[Legguards Of Concealed Hatred]] primary = 'Ele Shaman, Resto Shaman', secondary = 'Casters/Healers' },
-    [47075] = { --[[Ring Of Callous Aggression]] primary = 'Kitty/Bear Druid, MM/Surv Hunter\n              Ret Paladin, Ass/Combat Rogue, Enhancement Shaman\n              Arms/Fury Warrior' },
+    [47075] = { --[[Ring Of Callous Aggression]] primary = 'Kitty/Bear, MM/Surv Hunter, Ret Paladin\n              Ass/Combat Rogue, Enhancement Shaman\n              Arms/Fury Warrior' },
     [47088] = { --[[Satrinas Impeding Scarab]] primary = 'Prot Paladin' },
     [47077] = { --[[Treads Of The Icewalker]] primary = 'Kitty/Bear Druid, Ass/Combat Rogue\n              Arms Warrior' },
     [47098] = { --[[Vambraces Of The Broken Bond]] primary = 'Holy Paladin,' },
