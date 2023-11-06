@@ -25,8 +25,8 @@ function LucyLoot:OnEnable()
     
     itemsDB = self.db.global.items
     self:SecureHookScript(GameTooltip, "OnTooltipSetItem")
-    self:SecureHookScript(ShoppingTooltip1, "OnTooltipSetItem")
-    self:SecureHookScript(ShoppingTooltip2, "OnTooltipSetItem")
+    --self:SecureHookScript(ShoppingTooltip1, "OnTooltipSetItem")
+    --self:SecureHookScript(ShoppingTooltip2, "OnTooltipSetItem")
     self:SecureHookScript(ItemRefTooltip, "OnTooltipSetItem")
 
 end
@@ -82,6 +82,7 @@ function LucyLoot:OnTooltipSetItem(tt)
 
         if self.db.global.enableDivider then
             tt:AddLine(divider)
+
         end
 
     end
@@ -103,5 +104,3 @@ function LucyLoot:SlashCommand(input, editbox)
         end
     end
 end
-
-
