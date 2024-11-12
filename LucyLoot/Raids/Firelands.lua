@@ -1,7 +1,7 @@
 ---@diagnostic disable
 local items = {
 	[71404] = { --[[ Arachnaflame Treads]]
-		primary = "Arms Warrior, Ret Paladin, Unholy DK, Frost DK, Blood DK, ",
+		primary = "Arms Warrior, Ret Paladin, DK's",
 	},
 	[71405] = { --[[ Carapace of Imbibed Flame]]
 		primary = "Tanks",
@@ -19,11 +19,11 @@ local items = {
 		primary = "Caster DPS, Healers",
 	},
 	[71403] = { --[[ Flickering Shoulders]]
-		primary = "Surv Hunter,",
-		notes = "Windstorm, ",
+		primary = "Survival Hunter",
+		notes = "Windstorm",
 	},
 	[71406] = { --[[ Mandible of Beth'tilac]]
-		primary = "Prot Paladin,",
+		primary = "Prot Paladin",
 	},
 	[71407] = { --[[ Robes Of Smoldering Devastation]]
 		primary = "Caster DPS, Healers",
@@ -32,16 +32,16 @@ local items = {
 		primary = "Holy Paladin",
 	},
 	[69138] = { --[[ Spidersilk Spindle]]
-		primary = "Prot Paladin,",
+		primary = "Prot Paladin",
 	},
 	[71412] = { --[[ Thoracic Flame Kilt]]
-		primary = "Resto Shaman, Ele Shaman ",
+		primary = "Resto Shaman, Ele Shaman",
 	},
 	[71408] = { --[[ Ward Of The Red Widow]]
 		primary = "Resto Shaman,Holy Paladin, Ele Shaman",
 	},
 	[71401] = { --[[ Widows Kiss]]
-		primary = "Ass Rogue, Combat Rogue, Surv Hunter, ",
+		primary = "Ass Rogue, Combat Rogue, Surv Hunter",
 	},
 	[71414] = { --[[ Arbalest Of Recupting Fury]]
 		primary = "Ass Rogues",
@@ -49,13 +49,13 @@ local items = {
 		tertiary = "Combat Rogues",
 	},
 	[71420] = { --[[ Cracked Obsidian Stompers]]
-		primary = "Prot Paladin,",
+		primary = "Prot Paladin",
 	},
 	[71415] = { --[[ Dreadfire Drape]]
-		primary = "Ass Rogue, Combat Rogue, Surv Hunter, ",
+		primary = "Ass Rogue, Combat Rogue, Surv Hunter",
 	},
 	[71418] = { --[[ Earthcrack Bracers]]
-		primary = "Arms Warrior, Ret Paladin, Frost DK, Unholy Dk, ",
+		primary = "Arms Warrior, Ret Paladin, Frost DK\n              Unholy Dk",
 	},
 	[71419] = { --[[ Fireskin Gauntlets]]
 		primary = "Plate DPS",
@@ -71,7 +71,7 @@ local items = {
 		primary = "Holy Paladin",
 	},
 	[71423] = { --[[ Heartstone Of Rhyolith]]
-		primary = "Resto Shaman, Disc Priest, Holy Paladin, Resto Druid, ",
+		primary = "Resto Shaman, Disc Priest, Holy Paladin\n              Resto Druid",
 	},
 	[71416] = { --[[ Hood Of Rampant Disdain]]
 		primary = "Rogues",
@@ -80,74 +80,74 @@ local items = {
 		primary = "Resto Druid, Boomkin",
 	},
 	[71425] = { --[[ Lava Line Wristbands]]
-		primary = "Ele Shaman,Resto Shaman,",
+		primary = "Ele Shaman,Resto Shaman",
 	},
 	[71422] = { --[[ Volcanospike]]
 		primary = "Aff Warlock, Demo Warlock, Fire Mage ",
 	},
 	[71427] = { --[[ Alysra's Razor]]
-		primary = "Ass Rogue, Combat Rogue, ",
+		primary = "Ass Rogue, Combat Rogue",
 	},
 	[71433] = { --[[ Alysrazors Band]]
-		primary = "Arms Warrior, Ret Paladin, Unholy DK, Frost DK, Blood DK, ",
+		primary = "Arms Warrior, Ret Paladin, DK's",
 	},
 	[71679] = { --[[ Chest Of Fiery Conq  H Only]]
-		primary = "Aff Warlock, Demo Warlock,Disc Priest, Shadow Priest, Prot Paladin, ",
+		primary = "Aff Warlock, Demo Warlock, Disc Priest\n              Shadow Priest, Prot Paladin",
 	},
 	[71686] = { --[[ Chest Of Fiery Protector   H Only]]
-		primary = "Arms Warrior, Ele Shaman, Resto Shaman,",
+		primary = "Arms Warrior, Ele Shaman, Resto Shaman",
 	},
 	[71672] = { --[[ Chest Of Fiery Vanq   H Only]]
-		primary = "Fire Mage, Boomkin, Resto Druid, Frost DK",
+		primary = "Fire Mage, Boomkin, Resto Druid\n              Frost DK",
 	},
 	[71437] = { --[[ Clawshaper Gauntlets]]
 		primary = "Resto Shaman, Ele Shaman",
 	},
 	[71439] = { --[[ Clutch Of The Firemother]]
-		primary = "Holy Paladin,",
+		primary = "Holy Paladin",
 	},
 	[71438] = { --[[ Craterflame SPaulders]]
 		primary = "Resto Shaman, Ele Shaman",
 	},
 	[69149] = { --[[ Eye Of Blazing Power]]
-		primary = "Resto Shaman,Disc Priest, ",
+		primary = "Resto Shaman, Disc Priest",
 	},
 	[71428] = { --[[ Flickering Wristbands]]
-		primary = "Ass Rogue, Combat Rogue, ",
-		notes = "Zephyr, Zephyr, ",
+		primary = "Ass Rogue, Combat Rogue",
+		notes = "Zephyr, Zephyr",
 	},
 	[71430] = { --[[ Greathelm Of The Coracious Maw]]
-		primary = "Arms Warrior, ",
+		primary = "Arms Warrior",
 	},
 	[71431] = { --[[ Lavaworm Legplates]]
-		primary = "",
+		primary = "Plate DPS",
 	},
 	[71435] = { --[[ Leggings Of Billowing Fire]]
-		primary = "Aff Warlock, ",
+		primary = "Aff Warlock",
 	},
 	[71429] = { --[[ Moltenfeather Leggings]]
 		primary = "Hunters",
 	},
 	[71436] = { --[[ Phoenix Down Treads]]
-		primary = "Boomkin, Resto Druid, ",
+		primary = "Boomkin, Resto Druid",
 	},
 	[71432] = { --[[ Spaulders Of Recurring Flame]]
 		primary = "Tanks",
 	},
 	[71434] = { --[[ Wings Of Flame]]
-		primary = "Aff Warlock,  Ele Shaman, Fire Mage, Boomkin, Resto Shaman, Disc Priest, Resto Druid",
+		primary = "Aff Warlock,  Ele Shaman, Fire Mage, Boomkin\n              Resto Shaman, Disc Priest, Resto Druid",
 	},
 	[71665] = { --[[ Flametalon Of Alysrazor]]
 		primary = "Warlocks Named Lucylynn",
 	},
 	[71452] = { --[[ Bracers Of The Dread Hunter]]
-		primary = "Holy Paladin,",
+		primary = "Holy Paladin",
 	},
 	[71447] = { --[[ Coalwalker Sandals]]
-		primary = "Aff Warlock, Demo Warlock, Disc Priest, Shadow Priest, Fire Mage, ",
+		primary = "Aff Warlock, Demo Warlock, Disc Priest\n              Shadow Priest, Fire Mage",
 	},
 	[71449] = { --[[ Crystal Prison Band]]
-		primary = "Aff Warlock, Demo Warlock, Ele Shaman,Shadow Priest, Fire Mage, Boomkin",
+		primary = "Aff Warlock, Demo Warlock, Ele Shaman\n              Shadow Priest, Fire Mage, Boomkin",
 		secondary = "Resto Druid, Disc Priest Resto Shaman",
 		notes = "Discussion On Caster>Healers",
 	},
@@ -161,25 +161,25 @@ local items = {
 		primary = "Rogues",
 	},
 	[71448] = { --[[ Goblet Of Anger]]
-		primary = "Disc Priest, Resto Druid, Shadow Priest, Boomkin",
+		primary = "Disc Priest, Resto Druid, Shadow Priest\n              Boomkin",
 	},
 	[71678] = { --[[ Leggings Of Fiery Conq    H Only]]
-		primary = "Demo Warlock, Disc Priest, Holy Paladin, Prot Paladin, Ret Paladin, ",
+		primary = "Demo Warlock, Disc Priest, Holy Paladin\n              Prot Paladin, Ret Paladin",
 	},
 	[71685] = { --[[ Leggings Of Fiery Protector   H ONly]]
-		primary = "Arms Warrior, Ele Shaman, Resto Shaman,Surv Hunter, ",
+		primary = "Arms Warrior, Ele Shaman, Resto Shaman\n              Surv Hunter",
 	},
 	[71671] = { --[[ Leggings Of Fiery Vanq    H Only]]
-		primary = "Ass Rogue, Fire Mage, Boomkin, Frost DK, Blood DK, Unholy DK",
+		primary = "Ass Rogue, Fire Mage, Boomkin\n              DK's",
 	},
 	[71453] = { --[[ Legplates Of Absolute Control]]
-		primary = "Holy Paladin,",
+		primary = "Holy Paladin",
 	},
 	[71444] = { --[[ Legplates Of Frenzied Devotion]]
 		primary = "Tanks",
 	},
 	[71446] = { --[[ Necklace Of Fetishes]]
-		primary = "Arms Warrior, Ret Paladin, Unholy DK, Frost DK, ",
+		primary = "Arms Warrior, Ret Paladin, Unholy DK\n              Frost DK",
 	},
 	[71442] = { --[[ Scalp Of The Bandit Prince]]
 		primary = "Hunters",
@@ -189,19 +189,19 @@ local items = {
 		secondary = "Unholy DK",
 	},
 	[71451] = { --[[ Treads Of Implicit Obedience]]
-		primary = "Ele Shaman, Resto Shaman,",
+		primary = "Ele Shaman, Resto Shaman",
 	},
 	[71443] = { --[[ Uncrushable Belt Of Fury]]
-		primary = "Arms Warrior, Prot Paladin, Blood DK, ",
+		primary = "Arms Warrior, Prot Paladin, Blood DK",
 	},
 	[71455] = { --[[ Breastplte Of The Incendiary Soul]]
-		primary = "Ass Rogue, Combat Rogue, ",
+		primary = "Ass Rogue, Combat Rogue",
 	},
 	[71465] = { --[[ Casque Of Flame]]
 		primary = "Holy Paladin",
 	},
 	[71457] = { --[[ Decimation Treads]]
-		primary = "Surv Hunter,",
+		primary = "Surv Hunter",
 	},
 	[71458] = { --[[ Flickering Handguards]]
 		primary = "Plate People",
@@ -213,16 +213,16 @@ local items = {
 		primary = "Resto Shaman, Ele Shaman",
 	},
 	[71676] = { --[[ Gaunlets Of Fiery Conq      H Only]]
-		primary = "Aff Warlock, Disc Priest, Holy Paladin, Prot Paladin, Ret Paladin, ",
+		primary = "Aff Warlock, Disc Priest, Paladins",
 	},
 	[71683] = { --[[ Gauntlets Of Fiery Protector   H Only]]
-		primary = "Arms Warrior, Ele Shaman, Resto Shaman,Surv Hunter, ",
+		primary = "Arms Warrior, Ele Shaman, Resto Shaman\n              Surv Hunter",
 	},
 	[71669] = { --[[ Gauntlets Of Fiery Vanq    H Only]]
-		primary = "Ass Rogue,Combat Rogue, Boomkin, Resto Druid, Frost DK, Blood DK, ",
+		primary = "Ass Rogue, Combat Rogue, Boomkin\n              Resto Druid, Frost DK, Blood DK",
 	},
 	[71463] = { --[[ Glowing Wing Bracers]]
-		primary = "Boomkin, Resto Druid, ",
+		primary = "Boomkin, Resto Druid",
 	},
 	[71459] = { --[[ Helm Of Blazing Glory]]
 		primary = "Tanks",
@@ -237,40 +237,40 @@ local items = {
 		primary = "Caster DPS",
 	},
 	[71460] = { --[[ Shard Of Torment]]
-		primary = "Prot Paladin,",
+		primary = "Prot Paladin",
 	},
 	[71456] = { --[[ Shoulderspads Of The Forgotten Gate]]
 		primary = "Rogue",
 	},
 	[71469] = { --[[ Breastplate Of Shifting Visions]]
-		primary = "Ret Paladin, Blood DK, Unholy DK, Frost DK",
+		primary = "Ret Paladin, DK's",
 	},
 	[71470] = { --[[ Cracers Of The Fiery Path]]
-		primary = "Prot Paladin, Blood DK, ",
+		primary = "Prot Paladin, Blood DK",
 	},
 	[71466] = { --[[ Fandrals Flamescythe]]
-		primary = "Surv Hunter,",
+		primary = "Surv Hunter",
 	},
 	[71474] = { --[[ Firecat Leggings]]
 		primary = "Resto Druid, Boomkin",
 	},
 	[71472] = { --[[ Flowform Choker]]
-		primary = "Aff Warlock, Demo Warlock, Ele Shaman,Shadow Priest, Fire Mage, Boomkin, ",
+		primary = "Aff Warlock, Demo Warlock, Ele Shaman\n              Shadow Priest, Fire Mage, Boomkin",
 	},
 	[71468] = { --[[ Grips Of Unerring Precision]]
 		primary = "Hunters",
 	},
 	[69111] = { --[[ Jaws Of Defeat]]
-		primary = "Resto Shaman, Disc Priest, Holy Paladin, Resto Druid, ",
+		primary = "Resto Shaman, Disc Priest, Holy Paladin\n              Resto Druid",
 	},
 	[71680] = { --[[ Shoulders Of Fiery Conq]]
-		primary = "Aff Warlock, Demo Warlock, Disc Priest, Shadow Priest, Holy Paladin, Ret Paladin, ",
+		primary = "Aff Warlock, Demo Warlock, Disc Priest\n              Shadow Priest, Holy Paladin, Ret Paladin",
 	},
 	[71687] = { --[[ Shoulders Of Fiery Protector]]
-		primary = "Arms Warrior, Ele Shaman, Resto Shaman,",
+		primary = "Arms Warrior, Ele Shaman, Resto Shaman",
 	},
 	[71673] = { --[[ Shoulders Of Fiery Vanq]]
-		primary = "Ass Rogue, Combat Rogue, Fire Mage, Boomkin, Resto Druid, Unholy DK, Frost DK, Blood DK, ",
+		primary = "Ass Rogue, Combat Rogue, Fire Mage\n              Boomkin, Resto Druid, DK's",
 	},
 	[71467] = { --[[ Snadals Of Leaping Coils]]
 		primary = "Combat Rogue, Ass Rogues",
@@ -279,67 +279,67 @@ local items = {
 		primary = "Caster DPS ",
 	},
 	[69112] = { --[[ The Hungerer]]
-		primary = "Ass Rogue, Combat Rogue, Surv Hunter, ",
+		primary = "Ass Rogue, Combat Rogue, Surv Hunter",
 	},
 	[71475] = { --[[ Treats Of The Penitent Man]]
-		primary = "Holy Paladin,",
+		primary = "Holy Paladin",
 	},
 	[71471] = { --[[ Wristwraps Of Arrogant Doom]]
-		primary = "Aff Warlock, Demo Warlock, Disc Priest, Shadow Priest, Fire Mage, ",
+		primary = "Aff Warlock, Demo Warlock, Disc Priest\n              Shadow Priest, Fire Mage",
 	},
 	[71611] = { --[[ Arathar, The Eye Of Flame]]
 		primary = "Surv Hunter",
 		secondary = "Ass Rogue, Combat Rogue",
 	},
 	[71610] = { --[[ Choker Of The Vanquished Lord]]
-		primary = "Ass Rogue,Combat Rogue, Surv Hunter, ",
+		primary = "Ass Rogue,Combat Rogue, Surv Hunter",
 	},
 	[71684] = { --[[ Cornw Of Fiery Protector]]
-		primary = "Surv Hunter, ",
+		primary = "Surv Hunter",
 	},
 	[71670] = { --[[ Crown Of Fiery Vanq]]
-		primary = "Ass Rogue, Combat Rogue, Fire Mage, Boomkin, Resto Druid, Unholy DK, Frost DK, Blood DK, ",
+		primary = "Ass Rogue, Combat Rogue, Fire Mage\n              Boomkin, Resto Druid, DK's",
 	},
 	[71616] = { --[[ Crown Of Flame]]
-		primary = "Ele Shaman, Resto Shaman,",
+		primary = "Ele Shaman, Resto Shaman",
 	},
 	[71677] = { --[[ Crown Of The Fiery Conq]]
-		primary = "Aff Warlock, Demo Warlock, Disc Priest, Shadow Priest, Holy Paladin, Prot Paladin, Ret Paladin, ",
+		primary = "Aff Warlock, Demo Warlock, Disc Priest\n              Shadow Priest, Paladins",
 	},
 	[71614] = { --[[ Fingers Of Incineration]]
-		primary = "Demo Warlock, Shadow Priest, Fire Mage, ",
+		primary = "Demo Warlock, Shadow Priest, Fire Mage",
 	},
 	[71615] = { --[[ Ko'gun Hammer Of The Firelord]]
-		primary = "Resto Shaman, Disc Priest, Holy Paladin, Resto Druid, ",
-		notes = "Ele Shama, Shadow Priest and Boomkin 1H",
+		primary = "Resto Shaman, Disc Priest, Holy Paladin\n              Resto Druid",
+		notes = "Ele Shaman, Shadow Priest and Boomkin 1H",
 	},
 	[71613] = { --[[ Majordomos Chain Of Office]]
-		primary = "Aff Warlock,Demo Warlock, Disc Priest, Shadow Priest, Fire Mage, ",
+		primary = "Aff Warlock,Demo Warlock, Disc Priest\n              Shadow Priest, Fire Mage",
 	},
 	[69150] = { --[[ Matrix Restabilizer]]
-		primary = "Ass Rogue,Combat Rogue, Surv Hunter, ",
+		primary = "Ass Rogue, Combat Rogue, Surv Hunter",
 	},
 	[71612] = { --[[ Pauldrons Of Roaring Flame]]
-		primary = "Prot Paladin,",
+		primary = "Prot Paladin",
 	},
 	[71797] = { --[[ Sho'ravon, Greatstafff Of Annihilation]]
-		primary = "Aff Warlock, Demo Warlock, Fire Mage, Ele Shaman, Shadow Priest, Boomkin",
+		primary = "Aff Warlock, Demo Warlock, Fire Mage\n              Ele Shaman, Shadow Priest, Boomkin",
 		notes = "BiS 2 Hander",
 	},
 	[70723] = { --[[ Sulfuras, The Extingushed Hand]]
-		primary = "Arms Warrior, Ret Paladin, Unholy DK, Blood DK, ",
+		primary = "Arms Warrior, Ret Paladin, Unholy DK\n              Blood DK",
 	},
 	[69110] = { --[[ Variable Pulse Lightning Capacitor]]
-		primary = "Aff Warlock, Demo Warlock,Ele Shaman, Shadow Priest, Fire Mage, Boomkin, ",
+		primary = "Aff Warlock, Demo Warlock, Ele Shaman\n              Shadow Priest, Fire Mage, Boomkin",
 	},
 	[69167] = { --[[ Vessel Of Acceleration]]
-		primary = "Arms Warrior, Unholy DK, ",
+		primary = "Arms Warrior, Unholy DK",
 	},
 	[69224] = { --[[ Smolder Egg Of Millagazor]]
 		primary = "Lucylynn For ALL HER HARD WORK! ",
 	},
 	[71778] = { --[[ Avool's Incendiary Shanker]]
-		primary = "Ass Rogue,",
+		primary = "Ass Rogue",
 	},
 	[71786] = { --[[ Entrails Disgorger]]
 		primary = "Rogues",
@@ -351,7 +351,7 @@ local items = {
 		primary = "Caster DPS ",
 	},
 	[71783] = { --[[ Shatterskull Bonecrusher]]
-		primary = "Combat Rogue,",
+		primary = "Combat Rogue",
 	},
 	[71774] = { --[[ Smoldering Censer of Purity]]
 		primary = "Healers",
@@ -361,7 +361,7 @@ local items = {
 		primary = "Unholy DK, Arms Warrior, Ret Paladins",
 	},
 	[68972] = { --[[ Apparatus Of Khaz'goroth]]
-		primary = "Arms Warrior, Ret Paladin, Frost DK, ",
+		primary = "Arms Warrior, Ret Paladin, Frost DK",
 	},
 	[70929] = { --[[ Firebound Gorget]]
 		primary = "Prot Paladin,Blood DK,  ",
@@ -370,24 +370,24 @@ local items = {
 		primary = "Caster DPS ",
 	},
 	[71365] = { --[[ Hide Bound Chains]]
-		primary = "Surv Hunter,",
+		primary = "Surv Hunter",
 	},
 	[71366] = { --[[ Lava Bolt Crossbow]]
 		primary = "Surv Hunger",
 		secondary = "Rogues",
 	},
 	[71362] = { --[[ Obsidium Cleaver]]
-		primary = "Frost DK,",
+		primary = "Frost DK",
 		notes = "2",
 	},
 	[71361] = { --[[ Ranseur Of Hatred]]
 		primary = "Hunters ",
 	},
 	[71640] = { --[[ Riplimbs Lost Collar]]
-		primary = "Ass Rogue,",
+		primary = "Ass Rogue",
 	},
 	[68915] = { --[[ Scale Of Life]]
-		primary = "Prot Paladin,Blood DK, ",
+		primary = "Prot Paladin,Blood DK",
 	},
 	[71360] = { --[[ Spire Of Scarlet Pain]]
 		primary = "Caster DPS ",
