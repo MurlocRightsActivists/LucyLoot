@@ -1,7 +1,7 @@
-## Interface: 30403
+## Interface: 40402
 ## Title: LucyLoot
-## Version: 1.4.2
-## Author: Thetruth
+## Version: 1.5.0
+## Author: GrumpyTruth
 ## SavedVariables: LucyLootDB
 
 Libs\LibStub\LibStub.lua
