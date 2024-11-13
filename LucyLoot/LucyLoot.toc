@@ -1,4 +1,4 @@
-## Interface: 40402
+## Interface: 40401
 ## Title: LucyLoot
 ## Version: 1.5.0
 ## Author: GrumpyTruth
